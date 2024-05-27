@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD HTML Y JAVASCRIPT</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="title">
+      <h1>CRUD Local con Javascript</h1>
+    </div>
+    <div class="container">
+      <h2>Formulario Libro</h2>
+      <form id="form-libro" class="form">
+        <input type="text" id="title" placeholder="Nombre del libro" /><br />
+        <input type="text" id="autor" placeholder="Autor del libro" /><br />
+        <input type="text" id="anho" placeholder="Año de publicacion" /><br />
+        <input type="text" id="editorial" placeholder="Editorial" /><br /><br />
+        <button type="submit" id="btn-agregar" class="btn-agregar">Agregar</button>
+        <button type="reset" id="btn-reset" class="btn-reset">Restablecer</button>
+      </form>
+    </div>
+    <div class="list">
+      <h2>Listado de Libros</h2>
+      <div class="list-libros"></div>
+    </div>
+    <script src="crud.js"></script>
+  </body>
+</html>

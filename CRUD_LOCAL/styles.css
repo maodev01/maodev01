@@ -1,0 +1,150 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Título principal */
+.title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0073e6;
+    color: white;
+}
+
+.title h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Contenedor del formulario */
+.form {
+    width: 30%;
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón de agregar */
+.btn-agregar {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(35, 215, 35);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-agregar:hover {
+    background-color: rgb(25, 175, 25);
+}
+
+/* Estilo para el listado de libros */
+.list {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-libros {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.libro {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.libro:last-child {
+    border-bottom: none;
+}
+
+.libro p {
+    margin: 5px 0;
+}
+
+/* Botón de eliminar */
+.btn-eliminar {
+    background-color: rgb(255, 69, 58);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-eliminar:hover {
+    background-color: rgb(200, 50, 50);
+}
+
+.btn-reset{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(237, 245, 13);
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar {
+    background-color: rgb(53, 240, 24);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px ;
+}
+
+.btn-editar:hover {
+    background-color: rgb(67, 191, 18);
+}   
